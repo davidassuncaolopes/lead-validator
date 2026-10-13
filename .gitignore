@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 .DS_Store
 data/leads_teste_reais.csv
+output/leads_teste_reais_limpos.csv
