@@ -53,14 +53,8 @@ def processar_base(arquivo_entrada: str, arquivo_saida: str) -> None:
     print(f"Resultado salvo em: {caminho_saida}")
     print("-" * 40)
 
-
 if __name__ == "__main__":
     processar_base(
         "data/leads.csv",
         "output/leads_limpos.csv",
-    )
-
-    processar_base(
-        "data/leads_teste_reais.csv",
-        "output/leads_teste_reais_limpos.csv",
     )
